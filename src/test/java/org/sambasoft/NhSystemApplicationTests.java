@@ -43,6 +43,7 @@ public class NhSystemApplicationTests {
 	 
       @Test
       public void testUser() {
+      	 //testing user
     	  User user = userService.findOne("testUser@mail.com");
           assertNotNull(user);
     	  User admin = userService.findOne("testAdmin@mail.com");
