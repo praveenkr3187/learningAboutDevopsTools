@@ -1,4 +1,4 @@
-package org.sambasoft;
+package org.sapscholars;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -8,10 +8,10 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.sambasoft.entities.Task;
-import org.sambasoft.entities.User;
-import org.sambasoft.services.TaskService;
-import org.sambasoft.services.UserService;
+import org.sapscholars.entities.Task;
+import org.sapscholars.entities.User;
+import org.sapscholars.services.TaskService;
+import org.sapscholars.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -58,8 +58,4 @@ public class NhSystemApplicationTests {
 
       }
       
-      
-      
-     
-	
 }

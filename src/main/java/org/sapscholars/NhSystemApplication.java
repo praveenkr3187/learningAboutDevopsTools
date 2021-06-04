@@ -1,13 +1,11 @@
-package org.sambasoft;
+package org.sapscholars;
 
-import org.sambasoft.entities.User;
-import org.sambasoft.services.UserService;
+import org.sapscholars.entities.User;
+import org.sapscholars.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication
 public class NhSystemApplication  implements  CommandLineRunner{

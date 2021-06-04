@@ -1,4 +1,4 @@
-package org.sambasoft.controllers;
+package org.sapscholars.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

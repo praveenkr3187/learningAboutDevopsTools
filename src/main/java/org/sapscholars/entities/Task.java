@@ -1,4 +1,4 @@
-package org.sambasoft.entities;
+package org.sapscholars.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

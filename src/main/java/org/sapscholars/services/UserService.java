@@ -1,11 +1,11 @@
-package org.sambasoft.services;
+package org.sapscholars.services;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.sambasoft.entities.Role;
-import org.sambasoft.entities.User;
-import org.sambasoft.repositories.UserRepository;
+import org.sapscholars.entities.Role;
+import org.sapscholars.entities.User;
+import org.sapscholars.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

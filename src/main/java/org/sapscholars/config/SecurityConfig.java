@@ -1,4 +1,4 @@
-package org.sambasoft.config;
+package org.sapscholars.config;
 
 import javax.sql.DataSource;
 

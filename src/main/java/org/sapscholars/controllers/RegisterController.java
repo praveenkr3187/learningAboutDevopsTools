@@ -1,9 +1,9 @@
-package org.sambasoft.controllers;
+package org.sapscholars.controllers;
 
 import javax.validation.Valid;
 
-import org.sambasoft.entities.User;
-import org.sambasoft.services.UserService;
+import org.sapscholars.entities.User;
+import org.sapscholars.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

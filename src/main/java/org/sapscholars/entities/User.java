@@ -1,4 +1,4 @@
-package org.sambasoft.entities;
+package org.sapscholars.entities;
 
 import java.util.List;
 
