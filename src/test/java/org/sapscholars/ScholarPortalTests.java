@@ -18,7 +18,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class NhSystemApplicationTests {
+public class ScholarPortalTests {
 	
       @Autowired
       private UserService userService;

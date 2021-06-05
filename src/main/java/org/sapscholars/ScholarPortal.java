@@ -8,12 +8,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NhSystemApplication  implements  CommandLineRunner{
+public class ScholarPortal implements  CommandLineRunner{
 	   @Autowired
 	   private UserService userService;
 	     
 	public static void main(String[] args) {
-		SpringApplication.run(NhSystemApplication.class, args);
+		SpringApplication.run(ScholarPortal.class, args);
 	}
 
 	@Override

@@ -20,7 +20,6 @@ public class ProfileController {
 	
 	@GetMapping("/profile")
 	public String showProfilePage(Model model, Principal principal) {
-		
 		String email = principal.getName();
 		User user = userService.findOne(email);
 		

@@ -17,8 +17,7 @@ public class RegisterController {
 	private UserService userService;
 
 	@GetMapping("/register")
-	public String registerForm(Model model) {
-
+	public String register(Model model) {
 		model.addAttribute("user", new User());
 		return "views/registerForm";
 	}
@@ -31,14 +30,10 @@ public class RegisterController {
 		}
 		if(userService.isUserPresent(user.getEmail())) {
 			model.addAttribute("exist",true);
-
 			return "views/registerForm";
-
 		}
 		userService.createUser(user);
-		
 		return "views/success";
-
 	}
 
 }

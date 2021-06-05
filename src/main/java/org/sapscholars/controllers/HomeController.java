@@ -4,23 +4,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class IndexController {
+public class HomeController {
 	
-	  
 	@GetMapping("/")
-	public String showIndexPage() {
-		
+	public String home() {
 		return "index";  
 	}
 	
 	@GetMapping("/login") 
-	public String showLoginForm() {
-		
+	public String login() {
 		return "views/loginForm";  
 	}
 	
-	
-	  
-	
-
 }
