@@ -4,6 +4,6 @@ applications:
     memory: 1G
     disk:
     random-route: true
-    path: ./target/NHSystem-0.0.1-SNAPSHOT.jar
+    path: ./target/Scholars-0.0.1-SNAPSHOT.jar
     services:
       
